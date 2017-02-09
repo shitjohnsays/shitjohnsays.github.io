@@ -1,10 +1,10 @@
 var imgs = {
-    "fabulous": 3,
+    "fabulous": 1,
     "hungry": 0,
     "judgingyou": 0,
-    "lingerie": 0,
+    "lingerie": 1,
     "matter": 1,
-    "norachel": 2,
+    "norachel": 3,
     "wtfhilarie": 2
 }
 
@@ -28,7 +28,7 @@ function getNewRandomImage(currentImg) {
 
     var n = Math.floor(Math.random() * (imgs[img] + 1));
     if (img + "-" + n == currentImg) {
-        n = (n + 1) % imgs[img];
+        n = (n + 1) % (imgs[img] + 1);
     }
     return img + "-" + n;
 }
