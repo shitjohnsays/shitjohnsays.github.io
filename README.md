@@ -1,2 +1,2 @@
-# shitjohnsays.github.io
 Shit John Says
+https://shitjohnsays.github.io/
