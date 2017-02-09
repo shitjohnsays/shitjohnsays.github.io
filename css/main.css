@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: none;
+}
+
+#image {
+    max-width: 500px;
+    background-size: cover!important;
+    text-align: center;
+}
+
+#image:hover {
+    cursor: pointer;
+}
+
+#image:hover img {
+    opacity: 0.8;
+}
+
+#image img {
+    padding-top: 50%;
+    top: -64px;
+}
